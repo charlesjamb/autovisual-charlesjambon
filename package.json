@@ -1,0 +1,12 @@
+{
+  "name": "autovisual-charlesjambon",
+  "version": "1.0.0",
+  "description": "exercices pour autovisual",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:charlesjamb/autovisual-charlesjambon.git",
+    "type": "git"
+  },
+  "author": "charlesjamb <charles.jambon@gmail.com>",
+  "license": "MIT"
+}

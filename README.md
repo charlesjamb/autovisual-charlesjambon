@@ -1,2 +1,5 @@
 # autovisual-charlesjambon
-exercices pour autovisual
+
+* BackEndProduit: Pour ce premier exercice, il faudra générer une page html qui permette d'uploader un fichier; vous devrez utiliser nodeJS pour le back et express pour les routes. les fichiers seront mis dans un dossier "upload"; si le nom du fichier existe déjà vous devrez ajouter " (1)" à la fin du fichier (la récursivité pourrait vous être utile)
+* Linux: Pour ce second exercice, je vous demanderai de trouver une commande linux qui affiche la taille totale des dossiers et fichiers dans le dossier courant.
+* Jquery: Pour ce troisième exercice, je vous demanderai un script js que je pourrai copier puis coller dans l'outil de debugger de google chrome; celui-ci devra créer une variable tableau "thumbs" et push dans le tableau toutes les urls des thumbs de cette [page](http://suchen.mobile.de/fahrzeuge/details.html?id=230880925&scopeId=C&sortOption.sortBy=creationTime&sortOption.sortOrder=DESCENDING&ambitCountry=DE&isSearchRequest=true&makeModelVariant1.makeId=17200&pageNumber=1).
