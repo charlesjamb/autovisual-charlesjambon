@@ -8,5 +8,11 @@
     "type": "git"
   },
   "author": "charlesjamb <charles.jambon@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node ./BackEndProduit/index.js"
+  }
 }
