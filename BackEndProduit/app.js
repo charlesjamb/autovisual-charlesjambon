@@ -12,15 +12,11 @@ app.get('/', function(req, res) {
 app.post('/upload', function(req, res){
   let form = new formidable.IncomingForm();
   form.multiples = true;
+
   form.uploadDir = path.join(__dirname, '/upload');
 
-  // every time a file has been uploaded successfully,
-  // rename it to it's orignal name
   form.on('file', function(field, file) {
-		fs.readdir(form.uploadDir, function(err, files) {
-			console.log(files);
-		})
-    fs.rename(file.path, path.join(form.uploadDir, file.name));
+		fs.rename(file.path, path.join(form.uploadDir, file.name));
   });
 
   form.on('error', function(err) {
