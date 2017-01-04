@@ -10,9 +10,12 @@
   "author": "charlesjamb <charles.jambon@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   },
   "scripts": {
-    "start": "nodemon ./BackEndProduit/index.js"
+    "start": "nodemon ./BackEndProduit/app.js"
   }
 }
