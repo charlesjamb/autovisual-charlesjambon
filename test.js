@@ -1,16 +1,5 @@
-// function findFileName(array, fileName) {
-// 	array.forEach(function(item) {
-// 		if (item === fileName) {
-			
-// 		}
-// 		else {
-// 			return fileName
-// 		}
-// 	});
-// }
-
-const test = "marquis.docx";
-const test2 = "marquis.van.de.velde.docx";
+const fileUploaded = "marquis.van.de.velde.docx";
+const fileInDirectory = ["test.pdf", "helloworld.docx", "marquis.van.de.velde.docx"]
 
 function addBeforeExtension(string, toAdd)  {
 	const re = /(?:\.([^.]+))?$/;
@@ -21,6 +10,8 @@ function addBeforeExtension(string, toAdd)  {
 												.concat(extension)
 												.join('');
 	console.log(newString);
-}
+};
 
-addBeforeExtension(test2, 'hello');
+
+
+addBeforeExtension(fileUploaded, '(1)');
