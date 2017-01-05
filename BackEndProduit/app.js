@@ -16,6 +16,11 @@ app.post('/upload', function(req, res){
   form.uploadDir = path.join(__dirname, '/upload');
 
   form.on('file', function(field, file) {
+  	// find all files name in directory in an Array
+  	// iterate through Array and find if file.name is here
+  	// reiterate and find if file.name(n)
+  	// split file.name and iterate through it to find last .
+  	// add (n)
 		fs.rename(file.path, path.join(form.uploadDir, file.name));
   });
 
